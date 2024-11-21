@@ -2,12 +2,10 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:nakuskia_app/auth/auth_functions.dart';
 import 'package:nakuskia_app/auth/login.dart';
 import 'package:nakuskia_app/auth/validator.dart';
-import 'package:nakuskia_app/journalling/journal_list.dart';
 
 class Register extends StatefulWidget {
   Register({Key? key}) : super(key: key);
@@ -173,7 +171,7 @@ class _RegisterState extends State<Register> {
                                     TextButton(
                                       style: ButtonStyle(
                                         foregroundColor:
-                                            MaterialStateProperty.all<Color>(
+                                            WidgetStateProperty.all<Color>(
                                                 Colors.blue),
                                       ),
                                       onPressed: () {

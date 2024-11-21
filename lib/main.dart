@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:splashscreen/splashscreen.dart';
 import 'package:nakuskia_app/auth/login.dart';
-import 'package:nakuskia_app/journalling/journal_list.dart';
-import 'package:nakuskia_app/journalling/speech_screen.dart';
-import 'package:nakuskia_app/walkthrough/walkthrough_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
@@ -24,9 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Voice Journal',
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-        backgroundColor: Colors.green[50],
+        visualDensity: VisualDensity.adaptivePlatformDensity, colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.blueGrey).copyWith(surface: Colors.green[50]),
       ),
       home: Login(),
       /*SplashScreen(

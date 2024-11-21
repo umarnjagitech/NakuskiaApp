@@ -3,11 +3,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:nakuskia_app/journalling/sample_journalling.dart';
 import 'package:nakuskia_app/journalling/speech_screen.dart';
-import 'package:timeago/timeago.dart';
 
-import 'list_items.dart';
 
 class JournalHome extends StatefulWidget {
   const JournalHome({Key? key, required this.user}) : super(key: key);
@@ -103,12 +100,7 @@ class _JournalHomeState extends State<JournalHome> {
                             document.data()! as Map<String, dynamic>;
 
                         _date = data['date'].toDate();
-                        _datetime = '' +
-                            _date.year.toString() +
-                            '-' +
-                            _date.month.toString() +
-                            '-' +
-                            _date.day.toString();
+                        _datetime = '${_date.year}-${_date.month}-${_date.day}';
                         if (data['user_email'] != user!.email.toString()) {
                           return Visibility(
                             visible: false,

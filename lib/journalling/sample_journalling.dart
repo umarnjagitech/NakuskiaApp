@@ -5,14 +5,14 @@ import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart';
 
 class SampleJournalling extends StatefulWidget {
-  SampleJournalling({Key? key}) : super(key: key);
+  const SampleJournalling({Key? key}) : super(key: key);
 
   @override
   _SampleJournallingState createState() => _SampleJournallingState();
 }
 
 class _SampleJournallingState extends State<SampleJournalling> {
-  SpeechToText _speechToText = SpeechToText();
+  final SpeechToText _speechToText = SpeechToText();
   bool _speechEnabled = false;
   String _lastWords = '';
 
@@ -74,7 +74,7 @@ class _SampleJournallingState extends State<SampleJournalling> {
                 child: Text(
                   // If listening is active show the recognized words
                   _speechToText.isListening
-                      ? '$_lastWords'
+                      ? _lastWords
                       // If listening isn't active but could be tell the user
                       // how to start it, otherwise indicate that speech
                       // recognition is not yet ready or not supported on

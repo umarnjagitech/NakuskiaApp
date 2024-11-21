@@ -155,7 +155,7 @@ class _LoginState extends State<Login> {
                                         TextButton(
                                           style: ButtonStyle(
                                             foregroundColor:
-                                                MaterialStateProperty.all<
+                                                WidgetStateProperty.all<
                                                     Color>(Colors.blue),
                                           ),
                                           onPressed: () {
