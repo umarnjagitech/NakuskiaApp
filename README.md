@@ -51,3 +51,4 @@ based on the images shared above as follows:</p>
     - Some other UI Kit
 - Add:
   - SocialAuth
+- Add other tasks here...
