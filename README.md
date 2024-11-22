@@ -40,6 +40,12 @@
 <p>To move forward with the process I'll need to work on the project now 
 based on the images shared above as follows:</p>
 
+## KEY UPDATES
+- To categorize journals:
+  - Work stuff
+  - Personal Journals
+  - More?
+
 ### Login Process
 
 ![Login](assets/images/CompleteLoginProcess.png)

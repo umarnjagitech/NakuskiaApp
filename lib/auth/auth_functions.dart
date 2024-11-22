@@ -22,6 +22,7 @@ class FireAuth {
   }
 
   //verrify email address
+  // TODO Verify whether this works.
   Future<User?> verifyEmail({
     required String name,
     required String email,
@@ -84,7 +85,8 @@ class FireAuth {
     return user;
   }
 
-  //Sign out
-  //verify email
+  //TODO Add SocialAuth Firebase Function - Google, Twitter, Github, Phone No.
+  //TODO Check out Email Link Auth and decide if to add
+  //
 
 }
