@@ -35,8 +35,19 @@
 
 ![Conversation](assets/images/conversation.png)
 
-## Authors
+## Dev Plan: Phase 2 - 2024
 
-- [Elijah Daniel - Backend developer](https://github.com/ElijahDanie)
-- [Edafe Oke - Mobile interface developer](https://github.com/edafeoke)
-- [Njagi Ndungo - Documentation, Flutter & Speech Developer](https://github.com/enzonjagi)
+<p>To move forward with the process I'll need to work on the project now 
+based on the images shared above as follows:</p>
+
+### Login Process
+
+![Login](assets/images/CompleteLoginProcess.png)
+
+- Find out how to design the material designs to look like this thing, 
+  - that'll be hard but why not?
+  - Is it:
+    - MaterialUI
+    - Some other UI Kit
+- Add:
+  - SocialAuth

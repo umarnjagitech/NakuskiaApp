@@ -81,6 +81,12 @@ class _JournalHomeState extends State<JournalHome> {
               return Text('Something went wrong');
             }
             if (snapshot.hasData) {
+              // TODO Since the stream has data add a check,
+              // Check if the stream has this user's data
+              // if so, show the data
+              // else show a message to start journalling.
+              // TODO Change Dashboard view theme from vanilla to
+              // TODO a better design.
               return StreamBuilder<QuerySnapshot>(
                 stream: _journalsStream,
                 builder: (BuildContext context,
@@ -143,7 +149,7 @@ class _JournalHomeState extends State<JournalHome> {
                   }
                   return Center(
                     child: Text(
-                      'Tap + icon to add a new journal entry',
+                      "Tap + icon to add a new journal entry",
                     ),
                   );
                 },

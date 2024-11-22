@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity, colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.blueGrey).copyWith(surface: Colors.green[50]),
       ),
+      // TODO Change App Theme to something other than Vanilla
       home: Login(),
       /*SplashScreen(
         seconds: 8,
