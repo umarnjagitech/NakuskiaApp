@@ -3,7 +3,10 @@
 <p>A mobile-based journaling application, intended to address mental health issues by providing users with an opportunity to speak out about their challenges, while at the same time storing a journal of these events using speech to text technology</p>
 
 ## MVP(Minimum Viable Product)
+### Demo
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=klpqY4L6yds)
 
+## Phase One: Post-MVP
 ### Architecture
 
 ![Architecture](assets/images/arch.png)
