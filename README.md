@@ -4,7 +4,7 @@
 
 ## MVP(Minimum Viable Product)
 ### Demo
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=klpqY4L6yds)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/v=klpqY4L6yds/0.jpg)](https://www.youtube.com/watch?v=klpqY4L6yds)
 
 ## Phase One: Post-MVP
 ### Architecture
